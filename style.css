@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito';
+    background-color: #eeeeee;
+}
+#container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+header {
+    width: 100%;
+    height: 70px;
+    background: #273c75;
+}
+main {
+    width: 100%;
+    background: white;
+    display: flex;
+    min-height: 500px;
+}
+#projects {
+    width: 20%;
+    height: 100%;
+    margin-left: 2em;
+}
+#todos {
+    width: 80%;
+    margin: 0 1em;
+    font-size: 2em;
+    border-left: 1px solid lightgray;
+}
+#todos li {
+    border-bottom: 1px solid lightgray;
+}
+#projects ul {
+    margin-top: 1em;
+    cursor: default;
+}
+.fa-circle, .fa-check-circle {
+    margin-right: 0.5em
+}
+.fas.fa-circle {
+    color:#273c75
+}
+li>span {
+    display: flex;
+    align-items: baseline;
+}
+li, .add {
+    padding: 0.5em;
+}
+.add {
+    color: gray;
+}
+.add:hover {
+    cursor: pointer;
+}
+.fa-angle-down, .fa-angle-up {
+    margin-left: auto;
+}
+.details {
+    font-size: 0.7em;
+}
+input, textarea {
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+div:focus {
+    outline: none;
+}
+ul {
+    list-style-type: none;
+}
+textarea {
+    resize: none;
+    display: block;
+    width: 100%;
+    font-size: inherit;
+}
+[type="text"] {
+    font-size: 1em;
+    background-color: inherit;
+    width: 70%;
+}
+.selected {
+    background-color: lightgray;
+}
+#projects li {
+    width: 100%;
+    display: flex;
+}
+.fa-times {
+    margin-left: auto;
+}
+.fa-trash-alt {
+    float: right;
+}
+[type="range"] {
+    margin: auto;
+}
