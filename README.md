@@ -1,2 +1,2 @@
 # Enjoy the 🍝
-!(App screenshot)[/app-screenshot.png]
+![App screenshot](/app-screenshot.png)
